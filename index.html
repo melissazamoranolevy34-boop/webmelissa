@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melissa Zamorano Levy – TENS & Informática Biomédica</title>
+
+    <style>
+        /* ------------------ ESTILOS GENERALES ------------------ */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f3e9ff;
+            color: #333;
+        }
+
+        h1, h2 {
+            font-weight: 800;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* ------------------ ANIMACIONES ------------------ */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0); }
+        }
+
+        /* ------------------ HEADER ------------------ */
+        header {
+            background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 160px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .logo {
+            width: 180px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* ------------------ BOTONES ------------------ */
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin-top: 20px;
+            background: #7b1fa2;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #9c27b0;
+            transform: scale(1.05);
+        }
+
+        /* ------------------ LISTAS ------------------ */
+        ul {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        /* ------------------ FOOTER ------------------ */
+        footer {
+            background: #7b1fa2;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .social a {
+            color: white;
+            margin: 0 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .social a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ------------------ PRESENTACIÓN ------------------ -->
+    <header>
+        <!-- FOTO DE MELISSA -->
+        <img src="img/publicimgmelissa.jpg" alt="Foto de Melissa">
+
+        <!-- LOGO -->
+        <img src="img/logo-melissa-tens.png" class="logo" alt="Logo Melissa TENS">
+
+        <h1>Melissa Zamorano Levy</h1>
+        <p><strong>TENS a Domicilio & Tecnóloga en Informática Biomédica</strong></p>
+        <p>Cuidados humanizados + soluciones digitales para optimizar procesos clínicos y mejorar la experiencia del paciente.</p>
+
+        <a href="https://wa.me/56958758398" class="btn">Coordinar Atención</a>
+
+        <div class="social">
+            <a href="https://linkedin.com/in/melissa-zamorano-levy-7713a4217">LinkedIn</a>
+            <a href="https://wa.me/56958758398">WhatsApp</a>
+            <a href="https://instagram.com/tens_domicilio_melissa">Instagram</a>
+        </div>
+    </header>
+
+    <!-- ------------------ SERVICIOS TENS ------------------ -->
+    <section id="servicios-tens">
+        <h2>Servicios TENS a Domicilio</h2>
+        <p>Atención profesional, segura y humanizada en tu hogar.</p>
+
+        <ul>
+            <li>Administración de medicamentos.</li>
+            <li>Curaciones avanzadas.</li>
+            <li>Control de signos vitales.</li>
+            <li>Apoyo en movilización y autocuidado.</li>
+            <li>Acompañamiento terapéutico.</li>
+        </ul>
+
+        <a href="https://wa.me/56958758398" class="btn">Solicitar Atención TENS</a>
+    </section>
+
+    <!-- ------------------ CONSULTORÍA BIOMÉDICA ------------------ -->
+    <section id="consultoria-biomedica">
+        <h2>Consultoría en Informática Biomédica</h2>
+
+        <p>Consultora HIS y capacitadora en flujos clínicos y administrativos para mejorar el uso eficiente de sistemas de información en salud.</p>
+
+        <ul>
+            <li>Consultoría HIS.</li>
+            <li>Enseñanza de flujos clínicos y administrativos.</li>
+            <li>Capacitación a equipos de salud en plataformas digitales.</li>
+            <li>Optimización del uso de sistemas HIS.</li>
+            <li>Evaluación de tecnologías sanitarias.</li>
+        </ul>
+
+        <a href="https://wa.me/56958758398" class="btn">Solicitar Consultoría</a>
+    </section>
+
+    <!-- ------------------ SELLO DE ACREDITACIÓN ------------------ -->
+    <section>
+        <img src="img/Acreditada.jpg" alt="Sello de Acreditación en Salud" style="width:200px;">
+    </section>
+
+    <!-- ------------------ FOOTER ------------------ -->
+    <footer>
+        <p>Atiendo en toda la Región Metropolitana según necesidad.</p>
+        <p>También ofrezco acompañamiento y apoyo remoto.</p>
+
+        <div class="social">
+            <a href="https://linkedin.com/in/melissa-zamorano-levy-7713a4217">LinkedIn</a>
+            <a href="https://wa.me/56958758398">WhatsApp</a>
+            <a href="https://instagram.com/tens_domicilio_melissa">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
